@@ -1,4 +1,4 @@
-describe('Oldercoaster', function () {
+describe('OlderCoaster', function () {
   before(function () {
     this.wrapper = enzyme.shallow(React.createElement(OlderCoaster));
   });
@@ -39,4 +39,3 @@ describe('ButcherShop', function () {
     expect(this.wrapper.html()).toEqual(`<div class="butcher-shop"><p>Hello! We have the following products for sale today:</p><ul><li>Tenderloin</li><li>Short ribs</li><li>Beef shin</li><li>Ribeye</li></ul></div>`);
   });
 });
-
